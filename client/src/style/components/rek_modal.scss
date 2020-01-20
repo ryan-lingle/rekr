@@ -1,0 +1,190 @@
+#episode-search {
+  width: 90%;
+  margin: 0px auto;
+}
+
+#before-search {
+  height: 200px;
+  width: 90%;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin: 10px auto;
+  color: #495057;
+  font-weight: 400;
+  text-align: center;
+  padding: 75px 0px;
+}
+
+#episode-results {
+  height: 200px;
+  width: 90%;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  margin: 10px auto;
+  color: #495057;
+  font-weight: 400;
+  text-align: center;
+  overflow-x: scroll;
+}
+
+#episode-result {
+  width: 100%;
+  border-bottom: 1px solid #ced4da;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#episode-result img {
+  border-radius: 3px;
+}
+
+.episode-result-title {
+  padding-left: 10px;
+}
+
+#episode-result:hover {
+  background: #E5E5E5;
+  cursor: pointer;
+}
+
+.modal-title {
+  margin-left: 25px;
+  color: $primary;
+  font-weight: 300;
+}
+
+#rek-form {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px 10px 0px;
+  max-width: 300px;
+  margin: 0px auto;
+}
+
+#rek-form .form-text {
+  margin-bottom: 10px;
+}
+
+#satoshi-input {
+  min-width: 85%;
+  margin-right: 10px;
+}
+
+#satoshi-input:focus {
+  box-shadow: none;
+  border: none;
+  background-color: $light-gray;
+}
+
+#episode-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px $gray solid;
+  padding: 0px 25px 25px 25px;
+  margin-bottom: 5px;
+  color: $gray-hover;
+  font-weight: bold;
+}
+
+#rek-form-podcast-art {
+  width: 120px;
+  border-radius: 3px;
+}
+
+#rek-form-episode {
+  font-size: 18px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+#satoshi-input-container {
+  width: 100%;
+}
+
+#rek-form-satoshis {
+  margin: 5px auto;
+  color: $gray;
+  width: 100% !important;
+}
+
+#rek-form-satoshis .wallet-satoshis {
+  color: $gray-hover;
+}
+
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: $light-gray; /* Grey background */
+  outline: none; /* Remove outline */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+  height: 15px;
+  border-radius: 5px;
+}
+
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  background: $primary;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: $primary;
+  cursor: pointer;
+}
+
+#twitter-wrapper {
+  text-align: center;
+
+  button {
+    margin: 20px auto;
+  }
+
+  h2 {
+    font-weight: 200;
+    margin: 25px 0px;
+  }
+}
+#twitter-toggle {
+  text-align: center;
+}
+
+#twitter-toggle-label {
+  font-weight: bold;
+  color: $gray-hover;
+}
+
+#tag-suggestions-wrapper {
+  position: relative;
+}
+
+#tag-suggestions {
+  position: absolute;
+  left: -125px;
+  min-width: 125px;
+  top: 20px;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0px 0px 2px 1px $gray-hover;
+  div {
+    padding: 5px 10px;
+  }
+
+  div:hover {
+    border-radius: 3px;
+    background: $very-light-gray;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,37 @@
+#tag-input {
+  border: none;
+  width: 100px;
+}
+
+#tag-input:focus {
+  outline: none;
+}
+
+#tag-form {
+}
+
+#tags {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tag {
+  border: $primary 1px solid;
+  color: $primary;
+  border-radius: 3px;
+  padding: 5px 10px;
+  margin-right: 5px;
+}
+
+.remove-tag {
+  margin-left: 2px;
+  color: $primary;
+}
+
+.remove-tag:hover {
+  margin-left: 2px;
+  color: $primary-hover;
+  cursor: pointer;
+}

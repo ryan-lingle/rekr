@@ -1,0 +1,115 @@
+.rek-wrap {
+  width: 100%;
+}
+
+.rek-flex {
+  display: flex;
+  align-items: center;
+}
+
+
+#rek-flex-2 {
+  display: flex;
+  align-items: center;
+}
+
+.rek-middle {
+  flex-grow: 1;
+  padding: 0px 20px;
+  text-align: left;
+}
+
+.rek-profile-pic {
+  margin-bottom: auto;
+  width: 60px;
+}
+
+.rek-sats {
+  padding-bottom: 7px;
+  i {
+    color: $gray;
+    font-size: 9px;
+    margin-left: 2px;
+  }
+  i:hover {
+    cursor: pointer;
+  }
+}
+
+.sats-sats {
+  color: $primary;
+}
+
+.rek-details {
+  color: $gray;
+  font-size: 12px;
+  text-align: left;
+}
+
+.rek-main {
+  padding-top: 15px;
+  padding-bottom: 7px;
+}
+
+.rek-username {
+  color: $gray;
+}
+
+.rek-username:hover {
+  color: $gray;
+}
+
+.rek-episode-details {
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
+.rek-episode-details:hover {
+  color: black;
+}
+
+.rek-podcast-art {
+  border-radius: 2px;
+  width: 80px;
+}
+
+.rek-podcast-art:hover {
+  cursor: pointer;
+}
+
+// ### BOOKMARK #############
+.rek-bookmark {
+}
+
+.bookmark {
+  color: $gray;
+}
+
+.bookmarked {
+  color: $primary
+}
+
+.rek-hashtag {
+  white-space: nowrap;
+  font-size: 12px;
+  text-align: center;
+  color: $primary;
+  padding: 1px 3px;
+}
+
+#rek-flex-1 {
+  width: 100%;
+}
+
+#rek-flex-2-1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100px;
+}
+
+#rek-hashtags {
+  display: flex;
+  flex-wrap: wrap;
+}

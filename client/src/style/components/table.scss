@@ -1,0 +1,33 @@
+.table-row {
+  background: white;
+  border-top: $background 1px solid;
+}
+
+.table-row:hover {
+  background: $very-light-gray;
+}
+
+.arrow {
+  color: $primary;
+}
+
+.table-title {
+  white-space: nowrap;
+  padding: 0px 5px;
+}
+
+.table-title:hover {
+  cursor: pointer;
+}
+
+.table-cell {
+  padding: 5px;
+}
+
+.integer-cell {
+  text-align: right;
+}
+
+.btn-cell {
+  text-align: center;
+}

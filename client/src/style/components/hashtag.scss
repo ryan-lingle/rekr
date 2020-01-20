@@ -1,0 +1,48 @@
+#hashtag-box {
+  background: white;
+  border-radius: 2px;
+}
+
+#hashtag-header {
+  margin-right: 10px;
+  font-weight: 200;
+}
+
+#hashtag-box-heading {
+  text-align: center;
+  font-weight: 200;
+  border-bottom: 1px solid $background;
+  padding: 10px;
+  margin: 0px;
+}
+
+.hashtags {
+  overflow-y: scroll;
+  max-height: 250px;
+  border-top: 1px solid $background;
+}
+
+.hashtag-card {
+  border-top: none;
+  border-bottom: 1px solid $background;
+  padding: 15px 30px;
+  color: black;
+}
+
+.hashtag-card:hover {
+  color: black;
+  text-decoration: none;
+}
+
+#no-topic-msg {
+  text-align: center;
+  padding: 30px 0px;
+  font-weight: 200;
+}
+
+#hashtag-divider {
+  border-right: 1px solid $primary;
+  height: 40px;
+  margin-left: 15px;
+  margin-right: 5px;
+}

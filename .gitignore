@@ -1,0 +1,27 @@
+/client/node_modules
+/client/.pnp
+/client/.pnp.js
+
+# testing
+/client/coverage
+
+# production
+/client/build
+/client/.DS_Store
+/client/yarn.lock
+
+# misc
+.DS_Store
+/client/.env
+
+/client/npm-debug.log*
+/client/yarn-debug.log*
+/client/yarn-error.log*
+
+/server/node_modules
+/server/.env
+/server/.DS_Store
+/server/package-lock.json
+/server/private.key
+/server/public.key
+/server/logfile

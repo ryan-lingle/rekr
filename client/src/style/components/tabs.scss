@@ -1,0 +1,23 @@
+.tab {
+  padding: 5px 10px;
+  color: $gray;
+}
+
+.tab:hover {
+  color: $gray-hover;
+  cursor: pointer;
+}
+
+.current-tab {
+  color: $primary;
+}
+
+.current-tab:hover {
+  color: $primary-hover;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px 3px;
+}

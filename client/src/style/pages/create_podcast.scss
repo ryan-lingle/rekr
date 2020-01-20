@@ -1,0 +1,19 @@
+#rss-validator {
+  margin: 50px auto;
+}
+
+#rss-form {
+  margin-right: 10px;
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 20px;
+
+  #rss-input {
+    flex-grow: 1;
+  }
+
+  button {
+    margin-left: 10px;
+  }
+}

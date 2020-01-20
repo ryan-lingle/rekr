@@ -1,0 +1,96 @@
+.episode {
+  padding: 25px 25px;
+}
+
+.episode-details {
+  flex-grow: 1;
+  padding: 0px 20px;
+  color: black;
+  font-size: 14px;
+}
+
+.episode-details:hover {
+  color: black;
+}
+
+.episode-rek-btn {
+  margin-right: 15px;
+}
+
+// BIG EPISODE
+.big-episode-wrapper {
+  box-shadow: 0px 1px 10px 1px #ababab;
+  max-width: 700px;
+  margin: auto;
+}
+
+.big-episode {
+  background: white;
+  padding: 25px 40px;
+}
+
+#big-episode-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+
+
+.be-rek {
+  text-align: center;
+  padding: 5px;
+  background: white;
+  color: black;
+  background: $primary;
+  color: white;
+
+  .profile-pic {
+    margin-right: 15px;
+  }
+}
+
+.be-podcast-art {
+  max-width: 250px;
+  border-radius: 2px;
+}
+
+.be-title {
+  font-weight: bold;
+}
+
+#be-tags {
+  text-align: center;
+  padding-top: 5px;
+  a {
+    color: white;
+    margin-right: 5px;
+  }
+}
+
+.be-released {
+  margin-top: 10px;
+}
+
+#be-left {
+  width: 100%;
+  margin: 25px auto;
+  text-align: center;
+  i {
+    font-size: 25px;
+    margin-left: 10px;
+  }
+}
+
+#be-info {
+  margin: 0px auto;
+}
+
+#be-btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}

@@ -1,0 +1,72 @@
+#wallet {
+  text-align: center;
+  background: white;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0px 1px 10px 1px #ababab;
+  border-radius: 3px;
+  color: $gray;
+}
+
+.wallet-action {
+  padding: 20px 0px;
+}
+
+.wallet-line {
+  border-top: $light-gray solid 0.01em;
+  color: transparent;
+  height: 1px;
+  margin: 0px 10px;
+}
+
+.wallet-action:hover {
+  background: $very-light-gray;
+  cursor: pointer;
+}
+
+#wallet-amount {
+  margin: 0px 15px;
+  padding: 30px 0px;
+}
+
+.satoshi-amount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.satoshi-amount:hover {
+  cursor: pointer;
+}
+
+.wallet-satoshis {
+  font-size: 50px;
+  margin-right: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+#deposit-modal {
+  padding: 50px;
+  text-align: center;
+}
+
+#satoshis-number-input {
+  text-align: center;
+  font-size: 45px;
+  color: $gray-hover;
+  width: 200px;
+  font-weight: bold;
+  border: none;
+  border-bottom: 3px solid $gray-hover;
+}
+
+#satoshis-number-input:focus {
+  outline: none;
+}
+
+#joule-msg {
+  font-size: 20px;
+  padding-bottom: 20px;
+  font-weight: 300;
+}

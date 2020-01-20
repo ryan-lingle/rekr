@@ -1,0 +1,85 @@
+@media screen and (max-width: 1000px) {
+  body {
+    #user-box {
+      width: 100%;
+      margin-bottom: 20px;
+      margin-left: 0px;
+    }
+
+    #user-box-profile-pic {
+      min-width: 100px;
+    }
+  }
+}
+
+
+#user-box {
+  background: white;
+  border-radius: 2px;
+  width: 100%;
+  margin-left: 15px;
+}
+
+#user-box-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#user-box-profile-pic {
+  max-width: 65px;
+}
+.profile-pic:hover {
+  cursor: pointer;
+  filter: brightness(95%);
+}
+
+#user-box-username {
+  font-weight: bold;
+  color: black;
+}
+
+#user-box-username:hover {
+  cursor: pointer;
+  color: black;
+}
+
+#user-box-counts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-box-count {
+  padding: 5px 0px;
+  border-top: 1px solid $background;
+  border-left: 1px solid $background;
+  text-align: center;
+  font-size: 13px;
+  width: 25%;
+  color: black;
+  font-weight: 200;
+}
+
+#user-box-satoshis {
+  display: block;
+  border-top: 1px solid $background;
+  padding: 10px;
+  font-size: 13px;
+  text-align: center;
+  color: black;
+  font-weight: 200;
+}
+
+#user-box-satoshis:hover {
+  background: #f5f8fa;;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.user-box-count:hover {
+  background: #f5f8fa;;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}

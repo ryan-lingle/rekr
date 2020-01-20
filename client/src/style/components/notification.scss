@@ -1,0 +1,46 @@
+.notification {
+  background: white !important;
+  color: $primary !important;
+}
+
+.notification-container {
+  margin-top: 55px;
+}
+
+.bookmark-notification {
+  color: $primary;
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.notification-card {
+  justify-content: start !important;
+  align-items: flex-start;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: 200;
+
+  a:hover {
+    text-decoration-color: black;
+  }
+}
+
+.notification-description {
+  margin-left: 20px;
+}
+
+.sats-stacked {
+  margin-top: 15px;
+}
+
+.notification-episode-details {
+  color: black;
+}
+
+.notification-episode-details:hover {
+  color: black;
+}
+
+.notification-username {
+  color: black;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://kit.fontawesome.com/1da561a5a7.js"></script>
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <meta property="og:image" content="%PUBLIC_URL%/og_image.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Rekr">
+    <meta name="twitter:site" content="%PUBLIC_URL%">
+    <meta name="twitter:description" content="Stack Sats Recomending Podcasts">
+    <meta name="twitter:creator" content="@i_amm_nobody">
+    <meta name="twitter:image" content="https://rekr.app/og_image.png">
+    <link rel="apple-touch-icon" sizes="128x128" href="%PUBLIC_URL%/homescreen_icon.png">
+    <script>
+    "use strict";
+
+    !function() {
+      var t = window.driftt = window.drift = window.driftt || [];
+      if (!t.init) {
+        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ],
+        t.factory = function(e) {
+          return function() {
+            var n = Array.prototype.slice.call(arguments);
+            return n.unshift(e), t.push(n), t;
+          };
+        }, t.methods.forEach(function(e) {
+          t[e] = t.factory(e);
+        }), t.load = function(t) {
+          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+          var i = document.getElementsByTagName("script")[0];
+          i.parentNode.insertBefore(o, i);
+        };
+      }
+    }();
+    drift.SNIPPET_VERSION = '0.3.1';
+    drift.load('m3gs6y92p2wx');
+    </script>
+    <style>
+      iframe#drift-widget.drift-widget-welcome-online {
+        bottom: 55px !important;
+      }
+    </style>
+    <title>Rekr - Stack Sats Recomending Podcasts</title>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
